@@ -1,0 +1,3 @@
+<launch>
+    <node pkg='map_server' type='map_server' name='map_server' args='$(find my_turtlebot_mapping)/maps/my_map.yaml'/>
+</launch>
